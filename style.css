@@ -99,7 +99,6 @@ main{
     background-color: black;
     height: 100vh;
     width: auto;
-    /* position: fixed; */
 }
 .left-main{
     overflow-y: scroll;
