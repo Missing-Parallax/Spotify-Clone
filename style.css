@@ -26,8 +26,8 @@ nav{
 }
 .logo{
     margin: 6px 5px;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
 }
 .title{
     color: white;
@@ -38,6 +38,7 @@ nav{
     color: white;
     font-size: 30px;
     margin: auto 71px;
+    font-family: 'Lato', sans-serif;
 }
 .fav:hover{
     cursor: pointer;
@@ -182,8 +183,8 @@ main{
 }
 .pa-image{
     border-radius: 100%;
-    height: 15rem;
-    width: 15rem;
+    height: 12rem;
+    width: 12rem;
 }
 .pa-name{
     margin: 10px auto;
@@ -194,13 +195,25 @@ main{
     display: flex;
     background-color: rgba(104, 101, 101, 0.233);
 }
+.genre-cover{
+    display: flex;
+    position: relative;
+}
+.genre-cover-name{
+    font-weight: bolder;
+    font-family:cursive;
+    font-size: 2.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .genre-cover img{
     height: 15rem;
     width: 15rem;
     border-radius: 100%;
 }
 .genre-details{
-    /* flex-direction: row; */
     display: flex;
     align-content: center;
     overflow-x: scroll;
@@ -212,13 +225,19 @@ main{
     display: flex;
     margin: auto 10px;
     align-content: center;
-    /* position: relative; */
+    position: relative;
 }
 .genre-image{
     border-radius: 100%;
     height: 11rem;
     width: 11rem;
-} 
+}
 .genre-name{
-    
+    font-weight: bolder;
+    font-family:cursive;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
