@@ -33,6 +33,7 @@ nav{
     color: white;
     font-size: 50px;
     margin: auto 15px;
+    font-family: 'Lato', sans-serif;
 }
 .fav{
     color: white;
@@ -133,6 +134,7 @@ main{
     grid-template-columns: 50% 50%;
 }
 .head-section{
+    margin: 10px auto;
     padding: 10px 50px;
     color: white;
     width: 100%;
@@ -174,6 +176,7 @@ main{
     overflow-x: scroll;
 }
 .popular-artists::-webkit-scrollbar{
+    margin: 3px 20px;
     display:none;
 }
 .pa-card{
@@ -192,6 +195,7 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .music-genre{
+    margin: 3px 20px;
     display: flex;
     background-color: rgba(104, 101, 101, 0.233);
 }
@@ -240,4 +244,94 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.latest-english{
+    margin: 3px 20px;
+    display: flex;
+    align-content: center;
+    overflow-x: scroll;
+}
+.le-card{
+    margin: 10px 10px;
+}
+.le-image{
+    height: 11rem;
+    width: 11rem;
+    margin-bottom: 10px;
+}
+.le-name{
+    font-weight: lighter;
+    font-size: 1.25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.le-date{
+    font-weight: lighter;
+    font-size: 1.25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.latest-english::-webkit-scrollbar{
+    display:none;
+}
+.latest-hindi{
+    margin: 3px 20px;
+    display: flex;
+    align-content: center;
+    overflow-x: scroll;
+}
+.lh-card{
+    margin: 10px 10px;
+}
+.lh-image{
+    height: 11rem;
+    width: 11rem;
+    margin-bottom: 10px;
+}
+.lh-name{
+    font-weight: lighter;
+    font-size: 1.25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lh-date{
+    font-weight: lighter;
+    font-size: 1.25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.latest-hindi::-webkit-scrollbar{
+    display:none;
+}
+.queue{
+    width: 34%;
+    overflow-y: scroll;
+
+}
+.queue::-webkit-scrollbar{
+    display:none;
+}
+.queue-nav{
+    background-color: rgb(172, 19, 19);
+    padding: 10px 15px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.qn-lable{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.queue-list{
+    margin-top: 72px ;
+}
+.queue-card{
+    display: flex;
+    align-content: center;
+}
+.qc-image{
+    height: 10rem;
+    width: 10rem;
+}
+.song-name-singer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
