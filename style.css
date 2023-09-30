@@ -303,13 +303,16 @@ main{
 .queue{
     width: 34%;
     overflow-y: scroll;
-
+    position: fixed;
+    right: 0;
+    top: 100px;
+    height: calc(97vh - 100px);
 }
 .queue::-webkit-scrollbar{
     display:none;
 }
 .queue-nav{
-    background-color: rgb(131, 14, 14);
+    background-color: rgb(24, 22, 22);
     padding: 10px 15px;
     position: fixed;
     display: flex;
@@ -362,7 +365,7 @@ main{
     font-size: 1.1rem;
     width: 100%;
     text-align: center;
-    font-family:cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .list-container{
     padding-top: 72px;
