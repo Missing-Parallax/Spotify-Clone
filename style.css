@@ -9,6 +9,9 @@ body::-webkit-scrollbar{
 img{
     cursor: pointer;
 }
+i{
+    cursor: pointer;
+}
 nav{
     top: 0;
     display: flex;
@@ -146,11 +149,29 @@ main{
     display: flex;
     margin: 25px 10px;
     gap: 10px;
+    position: relative;
 }
-.lr-card img{
+.lr-song-cover{
     height: 220px;
     width: 220px;
 }
+.lr-play{
+    display: flex;
+    height: 220px;
+    width: 220px;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.lr-play:hover{
+    opacity: 1;
+    transform: scale(2);
+}
+
 .lr-name-date{
     display: flex;
     flex-direction: column;
