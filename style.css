@@ -100,6 +100,7 @@ main{
     border: 2px solid white;
     background-color: black;
     height: 100vh;
+    /* height: 85.5vh; */
     width: auto;
 }
 .left-main{
@@ -308,30 +309,69 @@ main{
     display:none;
 }
 .queue-nav{
-    background-color: rgb(172, 19, 19);
+    background-color: rgb(131, 14, 14);
     padding: 10px 15px;
     position: fixed;
     display: flex;
-    width: 100%;
+    width: 32%;
     height: 50px;
+    z-index: 1;
+}
+.queue-list{
+    width: 100%;
+    padding: 30px;
+}
+.qc-number{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .qn-lable{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.queue-list{
-    margin-top: 72px ;
-}
 .queue-card{
+    width: 100%;
     display: flex;
     align-content: center;
+    margin: 25px 10px;
 }
 .qc-image{
     height: 10rem;
     width: 10rem;
 }
 .song-name-singer{
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-content: center;
+    width:75% ;
+    
+}
+.song-name{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.song-singer{
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    font-family:cursive;
+}
+.list-container{
+    padding-top: 72px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.favourite{
+    width: 10%;
+    display: flex;
+    align-items: center;
 }
